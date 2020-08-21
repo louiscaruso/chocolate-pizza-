@@ -1,0 +1,61 @@
+header{
+  width: 900px;
+  margin: auto;
+
+}
+
+header li {
+  display: inline-block;
+}
+
+
+
+ #font-change{
+  font-family: 'Yellowtail';font-size: 30px;
+
+}
+#fonts{
+  font-family: 'Droid Serif';font-size: 10px;
+}
+#logo-pic{
+  float: left;
+} 
+
+ #logo{
+display: inline-block;
+height: 45px;
+margin: 14px 4px 0 0;
+}
+
+#line{
+  border:gray ;
+}
+
+#icon-list{
+  width: 230px;
+  float: right;
+}
+ 
+nav {
+width: 230px;
+}
+
+main{
+  margin:0px auto;
+  position: relative;
+  max-width: 900px;
+  box-sizing: border-box;
+}
+
+#ingredient-list  {
+  background-image: url("/img/list-bg.png");
+  min-height: 300px;
+}
+#ingredient-list li {
+  grid-template-columns: 60px 60px;
+}
+
+/* #ingredient-list {
+  z-index: -1;
+  position: relative;
+} */
